@@ -1,0 +1,93 @@
+/*Header*/
+ .header{
+    height: 90px;
+ 	height: 5.625rem;
+ 	background-image: url(../img/header/bg-head.jpg);
+ 	border-bottom: 7px solid #ffffff;
+ }
+
+.header-container{
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+    margin-top: 9px;
+    margin-top: 0.563rem;
+}
+.logo-link{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.logo-text{
+	position: absolute;
+	left: -99999px;
+}
+.socials{
+    float: right;
+    width: 20%;
+}
+
+.socico {
+    background-image: url(../img/header/header.png);
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.socials-icon-link{
+    margin-top: 23px;
+    margin-left: 5px;
+}
+.socico-fb {
+    width: 42px;
+    height: 44px;
+    background-position: -5px -5px;
+}
+
+.socico-fb:hover {
+    width: 42px;
+    height: 44px;
+    background-position: -57px -5px;
+}
+
+.socico-github {
+    width: 42px;
+    height: 44px;
+    background-position: -5px -59px;
+}
+
+.socico-github:hover {
+    width: 42px;
+    height: 44px;
+    background-position: -57px -59px;
+}
+
+.socico-twitter {
+    width: 42px;
+    height: 44px;
+    background-position: -109px -5px;
+}
+
+.socico-twitter:hover {
+    width: 42px;
+    height: 44px;
+    background-position: -109px -59px;
+}
+
+.socico-vk {
+    width: 42px;
+    height: 44px;
+    background-position: -5px -113px;
+}
+
+.socico-vk:hover {
+    width: 42px;
+    height: 44px;
+    background-position: -57px -113px;
+}
+/*End Header*/

@@ -1,0 +1,143 @@
+/*About*/
+.about{
+	width: 67.70833333%;
+	float: left;
+}
+.about-section{
+	margin-bottom: 40px;
+	margin-bottom: 2.5rem;
+ 	border: 1px solid #b7b7b7;
+ 	border-radius: 3px;
+ 	box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.07),inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
+}
+
+.about-section-title{
+	height: 56px;
+	border-radius: 2px 2px 0 0;
+	background: #a7a6a6; /* Old browsers */
+	background: -moz-linear-gradient(top, #a7a6a6 0%, #7c7a7a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #a7a6a6 0%,#7c7a7a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #a7a6a6 0%,#7c7a7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7a6a6', endColorstr='#7c7a7a',GradientType=0 ); /* IE6-9 */
+}
+.about-section-title-h{
+	margin: 0;
+	vertical-align: middle;
+	line-height: 56px;
+	padding-left: 42px;
+	font-size: 24px;
+	font-family: 'Open Sans Semibold', Helvetica, sans-serif;
+	color: #eeedec;
+}
+.about-section-content{
+	background: #f7f6f5;
+	border-radius: 0 0 2px 2px;
+}
+.about-section-me{
+	padding: 40px;
+}
+.about-section-me-logo{
+	float: left;
+	border: 1px solid #d9d8d7;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+.about-section-me-img{
+	box-sizing: border-box;
+	border-radius: 50%;
+	border: 9px solid #f6f5f3;
+	box-shadow: 3.236px 2.351px 26.88px 5.12px rgba(236, 232, 227, 0.75),inset 0px 2px 24px 0px rgba(121, 121, 121, 0.23);
+ }
+.about-section-me-info{
+	margin-left: 6.25%; 
+	float: left;
+	width: 65%;
+}
+.about-section-me-list{
+	margin-top: 38px;
+}
+
+.about-section-me-fact{
+	margin-bottom: 15px;
+}
+.about-section-me-fact-skill{
+	display: inline-block;
+	position: relative;
+	color: #1e7465;
+	font-size: 9px;
+	font-family: 'Open Sans Semibold', Helvetica, sans-serif;
+	margin-left: 16px;
+	
+}
+.about-section-me-fact-skill-p{
+	background: url('../img/about/skill-n.png') repeat-x;
+	line-height: 21px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+}
+.about-section-me-fact-skill:after{
+	content: url('../img/about/skill-a.png');
+	position: absolute;
+	top: 0;
+	right: -5px;
+}
+.about-section-me-fact-skill:before{
+	content: url('../img/about/skill-b.png');
+	position: absolute;
+	top: 0;
+	left: -10px;
+}
+.about-section-list-me-h, .about-section-list-me-p{
+	display: inline;
+}
+.about-section-me-block-h{
+	float: left;
+	width: 40%;
+}
+.about-section-me-fact-skills{
+	float: left;
+	width: 60%;
+}
+.about-section-me-fact:nth-child(5){
+	margin-top: 24px;
+}
+.about-section-list{
+	margin: 6.15384615% 6.15384615% 0 6.15384615%;
+}
+.about-section-me-list{
+	margin: 0;
+}
+.about-section-list-item{
+	background: url('../img/about/border.png') repeat-x top;
+}
+
+.about-section-list-item:nth-child(1){
+	background: none;
+	padding-top: 0;
+}
+.about-section-list-description{
+	padding-left: 15.38461538%;
+}
+.about-section-list-item{
+	padding-bottom: 18px;
+	padding-top: 22px;
+}
+
+.about-section-list-logo{
+	float: left;
+}
+.about-section-list-h{
+	margin: 0;
+	font-size: 14px;
+	font-family: 'Open Sans Semibold', Helvetica, sans-serif;
+	width: auto;
+	color: #727070;
+}
+.about-section-list-p{
+	margin: 0;
+	font-size: 14px;
+	font-family: 'Open Sans Regular', Helvetica, sans-serif;
+	color: #727070;
+}
+/*End About*/

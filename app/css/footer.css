@@ -1,0 +1,41 @@
+.footer{
+	height: 60px;
+	height: 3.750rem;
+	background-color: #f9f9f9;
+	min-width: 1200px;
+	max-width: 100%;
+}
+.footer-auth{
+	display: inline-block;
+	width: 6.77083333%;
+	margin-left: 17.70833333%;
+}
+.ico-locked{
+	display: inline-block;
+	margin-bottom: -22px;
+	top: 50%; 
+}
+.footer-auth-logo-text{
+	padding-left: 25px;
+	margin: 0;
+	font-family: 'Open Sans Bold', Helvetica, sans-serif;
+	color: #323232;
+	font-size: 14px;
+	font-size: 0.875rem;
+	margin-bottom: -0.875rem;
+	top: 50%; 
+}
+.footer-copyright{
+	display: inline-block;
+	margin: 0;
+	margin-left: 6.77083333%;
+	margin-bottom: -0.750rem;
+	top: 50%; 
+}
+.footer-copyright-p{
+	margin: 0;
+	font-family: 'Open Sans Light', Helvetica, sans-serif;
+	color: #727070;
+	font-size: 12px;
+	font-size: 0.750rem;
+}

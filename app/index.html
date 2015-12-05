@@ -1,15 +1,241 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru-ru">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Loftschool - Выпускной проект №1</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/side.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/about.css">
 </head>
 <body>
-    <h1>Пока что это воркфлоу</h1>
-    <p>Ну это просто космос</p>
-<script src="js/main.js"></script>
-<script src="bower/jquery/jquery.js"></script>
+    <div class="wrapper">
+    	<header class="header">
+    		<div class="header-container clearfix">
+	    			<div class="logo">
+	    				<a href="http://www.lyubakov.ru"><img src="../img/header/logo.png" alt="Главная" class="logo-pic"></a>
+	    				<div class="logo-text">
+	    				LoftSchool. От мыслителя к создателю.
+	    				</div>
+    				</div>
+    				<ul class="socials">
+		    				<a href="" class="socico socials-icon-link socico-fb">Facebook</a>
+		    				<a href="" class="socico socials-icon-link socico-vk">VKontakte</a>
+		    				<a href="" class="socico socials-icon-link socico-twitter">Twitter</a>
+		    				<a href="" class="socico socials-icon-link socico-github">Github</a>
+		    		</ul>
+    		</div>    	 		
+    	</header>
+    	<div class="main-content">
+    		<div class="container">
+    			<aside class="sidebar">
+    				<nav class="nav">
+    					<ul class="nav-list">
+    						<li class="nav-list-item nav-list-item-active">
+    							<div class="nav-list-item-link">
+    								<a href="#" class="nav-list-item-link-a nav-list-item-link-a-active">Обо мне</a>
+    							</div>
+    						</li>
+    						<li class="nav-list-item">
+    							<div class="nav-list-item-link">
+    								<a href="#" class="nav-list-item-link-a">Мои Работы</a>
+    							</div>
+    						</li>
+    						<li class="nav-list-item">
+    							<div class="nav-list-item-link">
+    								<a href="#" class="nav-list-item-link-a">Обратная связь</a>
+    							</div>
+    						</li>
+    					</ul>
+    				</nav>
+    				<div class="contacts">
+    					<div class="contacts-title">
+    						<h2 class="contacts-title-h">Контакты</h2>
+    					</div>
+    					<ul class="contacts-list">
+    						<li class="contacts-item">
+    							<div class="contacts-item-logo">
+    								<i class="ico ico-email"></i>
+    							</div>
+    							<div class="contacts-item-text">
+    								<a href="" class="contacts-item-content contacts-item-link">
+    									pochta@mail.ru
+    								</a>
+    							</div>    							
+    						</li>
+    						<li class="contacts-item">
+    							<div class="contacts-item-logo">
+    								<i class="ico ico-telephone"></i>
+    							</div>
+    							<div class="contacts-item-text">
+    								<p class="contacts-item-content">+79812342323</p>
+    							</div>    							
+    						</li>
+    						<li class="contacts-item">
+    							<div class="contacts-item-logo">
+    								<i class="ico ico-skype"></i>
+    							</div>
+    							<div class="contacts-item-text">
+    								<p class="contacts-item-content">nickname</p>
+    							</div>    							
+    						</li>
+    					</ul>
+    				</div>
+    			</aside>
+				<div class="about">
+					<section class="about-section clearfix">
+						<div class="about-section-title">
+							<h2 class="about-section-title-h">Основная информация</h2>
+						</div>
+						<div class="about-section-content about-section-me clearfix">
+							<div class="about-section-me-logo">
+								<img src="../img/about/me.jpg" height="152" width="152" alt="" class="about-section-me-img">
+							</div>
+							<div class="about-section-me-info">
+								<ul class="about-section-list about-section-me-list">
+									<li class="about-section-me-fact">
+										<h3 class="about-section-list-me-h about-section-list-h">Меня зовут:</h3>
+										<p class="about-section-list-me-p about-section-list-p">Иванов Андрей Степанович</p>
+									</li>
+									<li class="about-section-me-fact">
+										<h3 class="about-section-list-me-h about-section-list-h">Мой возраст:</h3>
+										<p class="about-section-list-me-p about-section-list-p">25 лет</p>
+									</li>
+									<li class="about-section-me-fact">
+										<h3 class="about-section-list-me-h about-section-list-h">Мой город:</h3>
+										<p class="about-section-list-me-p about-section-list-p">Санкт-Петербург, Россия</p>
+									</li>
+									<li class="about-section-me-fact">
+										<h3 class="about-section-list-me-h about-section-list-h">Моя специализация:</h3>
+										<p class="about-section-list-me-p about-section-list-p">FRONTEND разработчик</p>
+									</li>
+									<li class="about-section-me-fact">
+										<div class="about-section-me-block-h"><h3 class="about-section-list-h">Ключевые навыки:</h3></div>
+										<div class="about-section-me-fact-skills">
+											<div class="about-section-me-fact-skill">
+												<p class="about-section-me-fact-skill-p">HTML</p>			
+											</div>
+											<div class="about-section-me-fact-skill">
+												<p class="about-section-me-fact-skill-p">CSS</p>
+											</div>
+											<div class="about-section-me-fact-skill">
+												<p class="about-section-me-fact-skill-p">JAVASCRIPT</p>
+											</div>
+											<div class="about-section-me-fact-skill">
+												<p class="about-section-me-fact-skill-p">GIT</p>
+											</div>
+											<div class="about-section-me-fact-skill">
+												<p class="about-section-me-fact-skill-p">GULP</p>
+											</div>
+											<div class="about-section-me-fact-skill">
+												<p class="about-section-me-fact-skill-p">PHP</p>
+											</div>
+											<div class="about-section-me-fact-skill">
+												<p class="about-section-me-fact-skill-p">ANGULAR</p>
+											</div>
+											<div class="about-section-me-fact-skill">
+												<p class="about-section-me-fact-skill-p">XML</p>
+											</div>	
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<section class="about-section">
+						<div class="about-section-title">
+							<h2 class="about-section-title-h">Опыт работы</h2>
+						</div>
+						<div class="about-section-content clearfix">
+							<ul class="about-section-list">
+								<li class="about-section-list-item clearfix">
+									<div class="about-section-list-logo">
+										<img src="../img/about/bag.png" alt="" class="about-section-list-img">
+									</div>
+									<div class="about-section-list-description">
+										<h3 class="about-section-list-h">"ИП Заречкин" - Продавец дисков</h3>
+										<p class="about-section-list-p">Сентябрь 2005 - Август 2008</p>
+									</div>
+								</li>
+								<li class="about-section-list-item clearfix">
+									<div class="about-section-list-logo">
+										<img src="../img/about/bag.png" alt="" class="about-section-list-img">
+									</div>
+									<div class="about-section-list-description">
+										<h3 class="about-section-list-h">"ИП Боровицкий" - Продавец дисков</h3>
+										<p class="about-section-list-p">Сентябрь 2005 - Август 2008</p>
+									</div>
+								</li>
+								<li class="about-section-list-item clearfix">
+									<div class="about-section-list-logo">
+										<img src="../img/about/bag.png" alt="" class="about-section-list-img">
+									</div>
+									<div class="about-section-list-description">
+										<h3 class="about-section-list-h">"ИП Боровицкий" - Продавец дисков</h3>
+										<p class="about-section-list-p">Сентябрь 2005 - Август 2008</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="about-section">
+						<div class="about-section-title">
+							<h2 class="about-section-title-h">Образование</h2>
+						</div>
+						<div class="about-section-content clearfix">
+							<ul class="about-section-list">
+								<li class="about-section-list-item clearfix">
+									<div class="about-section-list-logo">
+										<img src="../img/about/pen.png" alt="" class="about-section-list-img">
+									</div>
+									<div class="about-section-list-description">
+										<h3 class="about-section-list-h">"ИП Боровицкий" - Продавец дисков</h3>
+										<p class="about-section-list-p">Сентябрь 2005 - Август 2008</p>
+									</div>
+								</li>
+								<li class="about-section-list-item clearfix">
+									<div class="about-section-list-logo">
+										<img src="../img/about/hat.png" alt="" class="about-section-list-img">
+									</div>
+									<div class="about-section-list-description">
+										<h3 class="about-section-list-h">"ИП Боровицкий" - Продавец дисков</h3>
+										<p class="about-section-list-p">Сентябрь 2005 - Август 2008</p>
+									</div>
+								</li>
+								<li class="about-section-list-item clearfix">
+									<div class="about-section-list-logo">
+										<img src="../img/about/file.png" alt="" class="about-section-list-img">
+									</div>
+									<div class="about-section-list-description">
+										<h3 class="about-section-list-h">"ИП Боровицкий" - Продавец дисков</h3>
+										<p class="about-section-list-p">Сентябрь 2005 - Август 2008</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+    		</div>
+    	</div>
+
+    </div>
+    <footer class="footer">
+    	<div class="container">
+    		<div class="footer-auth">
+    			<i class="ico ico-locked"></i>
+	    		<p class="footer-auth-logo-text">вход</p>
+	    	</div>
+	    	<div class="footer-copyright">
+	    		<p class="footer-copyright-p">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</p>
+	    	</div>
+    	</div>
+	    	
+    </footer>
+<script src="../js/main.js"></script>
+<script src="../bower/jquery/jquery.js"></script>
 </body>
 </html>
