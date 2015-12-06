@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/side.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/feedback.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -41,14 +41,14 @@
     								<a href="index.html" class="nav-list-item-link-a">Обо мне</a>
     							</div>
     						</li>
-    						<li class="nav-list-item nav-list-item-active">
-    							<div class="nav-list-item-link">
-    								<a href="#" class="nav-list-item-link-a nav-list-item-link-a-active">Мои Работы</a>
-    							</div>
-    						</li>
     						<li class="nav-list-item">
     							<div class="nav-list-item-link">
-    								<a href="feedback.html" class="nav-list-item-link-a">Обратная связь</a>
+    								<a href="portfolio.html" class="nav-list-item-link-a">Мои Работы</a>
+    							</div>
+    						</li>
+    						<li class="nav-list-item  nav-list-item-active">
+    							<div class="nav-list-item-link">
+    								<a href="feedback.html" class="nav-list-item-link-a nav-list-item-link-a-active">Обратная связь</a>
     							</div>
     						</li>
     					</ul>
@@ -90,10 +90,28 @@
 				<div class="about">
 					<section class="about-section clearfix">
 						<div class="about-section-title">
-							<h2 class="about-section-title-h">Мои работы</h2>
+							<label class="about-section-title-h">У вас интересный проект? Напишите мне</h2>
 						</div>
 						<div class="about-section-content clearfix">
-							
+							<div class="about-section-content-block col2">
+								<label class="about-section-content-block-header">Имя</label>
+								<input type="text" placeholder="Как к Вам обращаться" class="about-section-content-block-input">
+							</div>
+							<div class="about-section-content-block col2">
+								<label class="about-section-content-block-header">Email</label>
+								<input type="text" class="about-section-content-block-input" placeholder="Куда мне писать">
+							</div>
+							<div class="about-section-content-block col1">
+								<label class="about-section-content-block-header ">Сообщение</label>
+								<textarea name="" id="" class="about-section-content-block-input about-section-content-block-input-textarea" placeholder="Коротко в чем суть"></textarea>
+							</div>
+							<div class="about-section-content-block about-section-content-block-capcha">
+								<h2 class="about-section-content-block-header">Введите код, указанный на картинке</h2>
+								<img src="../img/feedback/E0Ed3r.png" alt="" class="about-section-content-block-capcha-img">
+								<input type="text" class="about-section-content-block-input about-section-content-block-capcha-input" placeholder="Введите код">
+							</div>
+							<button type="submit" class="about-section-block-button about-section-block-button-submit">Отправить</button>
+							<button type="reset" class="about-section-block-button about-section-block-button-reset">Очистить</button>
 						</div>
 					</section>
 				</div>
