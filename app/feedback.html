@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
  	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Loftschool - Выпускной проект №1</title>
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../bower/normalize-css/normalize.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/side.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/feedback.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/side.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/feedback.css">
 </head>
 <body>
 	<div class="wrapper">
     	<header class="header">
     		<div class="header-container clearfix">
 	    			<div class="logo">
-	    				<a href="http://www.lyubakov.ru"><img src="../img/header/logo.png" alt="Главная" class="logo-pic"></a>
+	    				<a href="http://www.lyubakov.ru"><img src="img/header/logo.png" alt="Главная" class="logo-pic"></a>
 	    				<div class="logo-text">
 	    				LoftSchool. От мыслителя к создателю.
 	    				</div>
@@ -92,27 +94,30 @@
 						<div class="about-section-title">
 							<label class="about-section-title-h">У вас интересный проект? Напишите мне</h2>
 						</div>
-						<div class="about-section-content clearfix">
-							<div class="about-section-content-block col2">
-								<label class="about-section-content-block-header">Имя</label>
-								<input type="text" placeholder="Как к Вам обращаться" class="about-section-content-block-input">
+						<form action="#" class="about-section-form">
+							<div class="about-section-content clearfix">
+								<div class="about-section-content-block col2">
+									<label class="about-section-content-block-header">Имя</label>
+									<input type="text" placeholder="Как к Вам обращаться" class="about-section-content-block-input">
+								</div>
+								<div class="about-section-content-block col2">
+									<label class="about-section-content-block-header">Email</label>
+									<input type="text" class="about-section-content-block-input" placeholder="Куда мне писать">
+								</div>
+								<div class="about-section-content-block col1">
+									<label class="about-section-content-block-header ">Сообщение</label>
+									<textarea name="" id="" class="about-section-content-block-input about-section-content-block-input-textarea" placeholder="Коротко в чем суть" maxlength="750"></textarea>
+								</div>
+								<div class="about-section-content-block about-section-content-block-capcha">
+									<h2 class="about-section-content-block-header">Введите код, указанный на картинке</h2>
+									<img src="img/feedback/E0Ed3r.png" alt="" class="about-section-content-block-capcha-img">
+									<input type="text" class="about-section-content-block-input about-section-content-block-capcha-input" placeholder="Введите код">
+								</div>
+								<button type="submit" class="about-section-block-button about-section-block-button-submit">Отправить</button>
+								<button type="reset" class="about-section-block-button about-section-block-button-reset">Очистить</button>
 							</div>
-							<div class="about-section-content-block col2">
-								<label class="about-section-content-block-header">Email</label>
-								<input type="text" class="about-section-content-block-input" placeholder="Куда мне писать">
-							</div>
-							<div class="about-section-content-block col1">
-								<label class="about-section-content-block-header ">Сообщение</label>
-								<textarea name="" id="" class="about-section-content-block-input about-section-content-block-input-textarea" placeholder="Коротко в чем суть"></textarea>
-							</div>
-							<div class="about-section-content-block about-section-content-block-capcha">
-								<h2 class="about-section-content-block-header">Введите код, указанный на картинке</h2>
-								<img src="../img/feedback/E0Ed3r.png" alt="" class="about-section-content-block-capcha-img">
-								<input type="text" class="about-section-content-block-input about-section-content-block-capcha-input" placeholder="Введите код">
-							</div>
-							<button type="submit" class="about-section-block-button about-section-block-button-submit">Отправить</button>
-							<button type="reset" class="about-section-block-button about-section-block-button-reset">Очистить</button>
-						</div>
+						</form>
+						
 					</section>
 				</div>
 			</div>
@@ -129,8 +134,8 @@
 	    	</div>
     	</div>    	
     </footer>
-<script src="../js/main.js"></script>
-<script src="../bower/jquery/jquery.js"></script>
-
+<script src="/js/main.js"></script>
+<script src="bower/jquery/dist/jquery.js"></script>
+<script src="bower/modernizr/modernizr.js"></script>
 </body>
 </html>

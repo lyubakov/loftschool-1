@@ -60,6 +60,7 @@ a {
 
  min-height: 100%;
  margin-bottom: -60px;
+ margin-bottom: -3.750rem;
  
 }
 .wrapper:after {

@@ -27,7 +27,7 @@
 }
 .socials{
     float: right;
-    width: 20%;
+    width: 16.5%;
 }
 
 .socico {
@@ -90,4 +90,8 @@
     height: 44px;
     background-position: -57px -113px;
 }
+.socials-icon-link:first-child{
+    margin-left: 0
+}
+
 /*End Header*/
