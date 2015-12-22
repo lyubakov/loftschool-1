@@ -1,0 +1,29 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Alex Lyubakov's package.json",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Lyubakov",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect-php": "0.0.7",
+    "gulp-filter": "^3.0.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-size": "^2.0.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-useref": "^3.0.4",
+    "main-bower-files": "^2.9.0"
+  },
+  "dependencies": {
+    "wiredep": "^3.0.0"
+  }
+}
