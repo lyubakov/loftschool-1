@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="ru-RU"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="ru-ru">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loftschool - Выпускной проект №1</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- build:css css/vendor.min.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower/normalize-css/normalize.css" />
+    <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/contact_me.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <!-- endbuild -->
+    <!--[if lt IE 9]>
+    <script src="bower/html5shiv/dist/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+    	<header class="header">
+    		<div class="header-container clearfix">
+	    			<div class="logo">
+	    				<a href="http://www.lyubakov.ru"><img src="img/header/logo.png" alt="Главная" class="logo-pic"></a>
+	    				<div class="logo-text">
+	    				LoftSchool. От мыслителя к создателю.
+	    				</div>
+    				</div>
+    				<ul class="socials">
+		    				<a href="https://www.facebook.com/alex.lyubakov" class="socico socials-icon-link socico-fb">Facebook</a>
+                            <a href="http://vk.com/alexlyubakov" class="socico socials-icon-link socico-vk">VKontakte</a>
+                            <a href="https://twitter.com/manutd" class="socico socials-icon-link socico-twitter">Twitter</a>
+                            <a href="https://github.com/lyubakov" class="socico socials-icon-link socico-github">Github</a>
+		    		</ul>
+    		</div>    	 		
+    	</header>
+    	<div class="main-content">
+    		<div class="container">
+    			<aside class="sidebar">
+    				<nav class="nav">
+    					<ul class="nav-list">
+    						<li class="nav-list-item">
+    							<div class="nav-list-item-link">
+    								<a href="index.html" class="nav-list-item-link-a">Обо мне</a>
+    							</div>
+    						</li>
+    						<li class="nav-list-item">
+    							<div class="nav-list-item-link">
+    								<a href="portfolio.html" class="nav-list-item-link-a">Мои Работы</a>
+    							</div>
+    						</li>
+    						<li class="nav-list-item  nav-list-item-active">
+    							<div class="nav-list-item-link">
+    								<a href="feedback.html" class="nav-list-item-link-a nav-list-item-link-a-active">Обратная связь</a>
+    							</div>
+    						</li>
+    					</ul>
+    				</nav>
+    				<div class="contacts">
+    					<div class="contacts-title">
+    						<h2 class="contacts-title-h">Контакты</h2>
+    					</div>
+    					<ul class="contacts-list">
+    						<li class="contacts-item">
+    							<div class="contacts-item-logo">
+    								<i class="ico ico-email"></i>
+    							</div>
+    							<div class="contacts-item-text">
+    								<a href="mailto:lyubakov@63.ru" class="contacts-item-content contacts-item-link">
+    									lyubakov@63.ru
+    								</a>
+    							</div>    							
+    						</li>
+    						<li class="contacts-item">
+    							<div class="contacts-item-logo">
+    								<i class="ico ico-telephone"></i>
+    							</div>
+    							<div class="contacts-item-text">
+    								<a href="tel:+79276863092" class="contacts-item-content">+79276863092</a>
+    							</div>    							
+    						</li>
+    						<li class="contacts-item">
+    							<div class="contacts-item-logo">
+    								<i class="ico ico-skype"></i>
+    							</div>
+    							<div class="contacts-item-text">
+    								<a href="skype:alexlyubakov?call" class="contacts-item-content">alexlyubakov</a>
+    							</div>    							
+    						</li>
+    					</ul>
+    				</div>
+    			</aside>
+				<div class="about">
+					<section class="about-section clearfix">
+						<div class="about-section-title">
+							<h2 class="about-section-title-h">У вас интересный проект? Напишите мне</h2>
+						</div>
+						<form action="#" class="about-section-form" id="contact-me">
+							<div class="about-section-content feedback-section-content clearfix">
+								<div class="about-section-content-block col2">
+									<label class="about-section-content-block-header">Имя</label>
+									<input type="text" placeholder="Как к Вам обращаться" class="about-section-content-block-input" qtip-content="введите имя" qtip-position="left">
+								</div>
+								<div class="about-section-content-block col2">
+									<label class="about-section-content-block-header">Email</label>
+									<input type="text" class="about-section-content-block-input" placeholder="Куда мне писать" qtip-content="введите e-mail" qtip-position="right">
+								</div>
+								<div class="about-section-content-block col1">
+									<label class="about-section-content-block-header ">Сообщение</label>
+									<textarea name="" id="" class="about-section-content-block-input about-section-content-block-input-textarea" placeholder="Коротко в чем суть" maxlength="750" qtip-content="ваш вопрос" qtip-position="left"></textarea>
+								</div>
+								<div class="about-section-content-block about-section-content-block-capcha">
+									<h2 class="about-section-content-block-header">Введите код, указанный на картинке</h2>
+									<img src="img/feedback/E0Ed3r.png" alt="" class="about-section-content-block-capcha-img">
+									<input type="text" class="about-section-content-block-input about-section-content-block-capcha-input" placeholder="Введите код" qtip-content="код капчи" qtip-position="right">
+								</div>
+								<button type="submit" class="about-section-block-button about-section-block-button-submit">Отправить</button>
+								<button type="reset" class="about-section-block-button about-section-block-button-reset">Очистить</button>
+							</div>
+						</form>
+						
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+    	<div class="container">
+    		<div class="footer-auth">
+    			<i class="ico ico-locked"></i>
+	    		<p class="footer-auth-logo-text">вход</p>
+	    	</div>
+	    	<div class="footer-copyright">
+	    		<p class="footer-copyright-p">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</p>
+	    	</div>
+    	</div>    	
+    </footer>
+
+<!-- build:js js/vendor.min.js -->
+<!-- bower:js -->
+<script src="bower/jquery/dist/jquery.js"></script>
+<script src="bower/html5shiv/dist/html5shiv.js"></script>
+<script src="bower/bPopup/jquery.bpopup.js"></script>
+<script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
+<script src="bower/qtip2/jquery.qtip.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js js/main.min.js -->
+<script src="js/validation.js"></script>
+<script src="js/lapopup.js"></script>
+<script src="js/main.js"></script>
+<script src="js/contact_me.js"></script>
+<!-- endbuild -->
+</body>
+</html>

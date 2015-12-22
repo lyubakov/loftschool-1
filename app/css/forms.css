@@ -1,0 +1,153 @@
+/*Forms*/
+/*General Styles*/
+	.form-button-submit::-moz-focus-inner {
+	  border: 0;
+	}
+	.addproj-input::-webkit-input-placeholder {
+	   color: #c7c6c6;
+	   font-family:'Open Sans Light', Helvetica, sans-serif;
+	}
+
+	.addproj-input:-moz-placeholder { /* Firefox 18- */
+	   color: #c7c6c6;
+	   font-family:'Open Sans Light', Helvetica, sans-serif;
+	}
+
+	.addproj-input::-moz-placeholder {  /* Firefox 19+ */
+	   color: #c7c6c6; 
+	   font-family:'Open Sans Light', Helvetica, sans-serif;
+	}
+
+	.addproj-input:-ms-input-placeholder {  
+	   color: #c7c6c6;
+	   font-family:'Open Sans Light', Helvetica, sans-serif;
+	}
+	.form-button-submit:active, .form-button-submit:focus {
+ 	 outline: none;
+}
+/*General Styles*/
+.modal-form-wrap{
+	width: 320px;
+	position: relative;
+	padding: 25px 20px;
+	border-radius: 5px;
+	background: #fbfaf9; /* Old browsers */
+	background: -moz-linear-gradient(top, #fbfaf9 0%, #f0eeed 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #fbfaf9 0%,#f0eeed 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #fbfaf9 0%,#f0eeed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfaf9', endColorstr='#f0eeed',GradientType=0 ); /* IE6-9 */
+	box-shadow: 0px 11px 27px 0px rgba(159, 159, 159, 0.75),inset 0px 6px 6px 0px rgba(255, 255, 255, 0.004);
+}
+
+.addproj-label{
+	font-family:'Open Sans Regular', Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 10px;
+	color: #727070;
+	display: block;
+	width: 100%;
+	clear: both;
+}
+.addproj-label:first-child{
+	margin-top: 0;
+}
+.modal-form-addproj{
+	width: 100%;
+}
+.addproj-input{
+	background: #f8f9f9;
+	border: 1px solid #727070;
+	border-radius: 2px;
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	font-family:'Open Sans Light', Helvetica, sans-serif;
+	font-size: 12px;
+	color: #727070;
+	padding-left: 10px;
+	display: block;
+	box-sizing: border-box;
+}
+.addproj-input-img{
+	float: left;
+	width: 265px;
+	border-radius: 2px 0 0 2px;
+	margin-bottom: 10px;
+	color: #727070;
+	font-size: 12px;
+
+}
+.addproj-img-block{
+	box-sizing: border-box;
+	float: right;
+	width: 55px;
+	height: 40px;
+	padding: 10px 15px;
+	border: 1px solid #727070;
+	border-left: none;
+	border-radius: 0 2px 2px 0;
+	margin-top: 10px;
+	background: #f9fafa; /* Old browsers */
+	background: -moz-linear-gradient(top, #f9fafa 0%, #e5e3e2 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f9fafa 0%,#e5e3e2 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f9fafa 0%,#e5e3e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafa', endColorstr='#e5e3e2',GradientType=0 ); /* IE6-9 */
+}
+
+.addproj-textarea{
+	height: 98px;
+	line-height: auto;
+	resize: none;
+}
+.form-button-submit{
+	margin-left: 100px;
+	margin-top: 12px;
+	width: 118px;
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 2.375% 4.75%;
+	font-family:'Open Sans Semibold', Helvetica, sans-serif;
+	font-size: 14px;
+	background: #7de6c9; /* Old browsers */
+	background: -moz-linear-gradient(top, #7de6c9 0%, #43b796 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #7de6c9 0%,#43b796 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #7de6c9 0%,#43b796 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7de6c9', endColorstr='#43b796',GradientType=0 ); /* IE6-9 */
+	box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.16),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+	border-color: #1e7465;
+	color: #1e7465;
+}
+.b-close{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 23px;
+	color: #727070;
+	border: none;
+	background: none;
+}
+.b-close:active, .b-close:focus {
+  outline: none;
+}
+.b-close::-moz-focus-inner {
+  border: 0;
+}
+.file-wrap{
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.file-wrap input[type=file]{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 320px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.modal-form-wrap{
+	display: none;
+}
+/*End forms*/

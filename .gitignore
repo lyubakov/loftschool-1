@@ -1,3 +1,7 @@
 node_modules
+<<<<<<< HEAD
 app/bower
 dist
+=======
+app/bower
+>>>>>>> 44984b67a589e1b84c3e61f2216dffcadc7575a9

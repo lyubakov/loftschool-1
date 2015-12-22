@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "site",
   "version": "1.0.0",
   "description": "Alex Lyubakov's package.json",
@@ -27,11 +28,16 @@
   "dependencies": {
     "wiredep": "^3.0.0"
 =======
+=======
+>>>>>>> 44984b67a589e1b84c3e61f2216dffcadc7575a9
   "name": "loftschool1",
   "version": "1.0.0",
   "devDependencies": {
     "browser-sync": "^2.10.0",
     "gulp": "^3.9.0"
+<<<<<<< HEAD
+>>>>>>> 44984b67a589e1b84c3e61f2216dffcadc7575a9
+=======
 >>>>>>> 44984b67a589e1b84c3e61f2216dffcadc7575a9
   }
 }

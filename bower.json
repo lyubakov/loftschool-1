@@ -1,5 +1,6 @@
 {
   "name": "site",
+<<<<<<< HEAD
   "dependencies": {
     "jquery": "~1.11.0",
     "normalize-css": "normalize.css#~3.0.3",
@@ -21,3 +22,16 @@
   }
 }
 
+=======
+  "resolutions": {
+    "jquery": "1.8"
+  },
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "normalize-css": "normalize.css#~3.0.3"
+  },
+  "dependencies": {
+    "modernizr": "2.8.3"
+  }
+}
+>>>>>>> 44984b67a589e1b84c3e61f2216dffcadc7575a9

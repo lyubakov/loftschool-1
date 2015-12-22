@@ -1,0 +1,107 @@
+/*General*/
+body, html{
+	height: 100%;
+	height: 100vh;
+	font-size: 14px;
+}
+body{
+	background-size: cover;
+	background: url(../img/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-width: 1200px;
+ 	max-width: 100%;
+ 	
+}
+.container:before,
+.container:after,
+.clearfix:before, 
+.clearfix:after{
+	content: "";
+	display: table;
+}
+.container:after,
+.clearfix:after{
+	clear: both;
+}
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+
+ul li{
+	list-style-type: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: url('../fonts/Open Sans/OpenSans-Semibold.ttf'); 
+}
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/Open Sans/OpenSans-Regular.ttf'); 
+}
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/Open Sans/OpenSans-Bold.ttf'); 
+}
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/Open Sans/OpenSans-Light.ttf'); 
+}
+.wrapper {
+
+ min-height: 100%;
+ margin-bottom: -60px;
+ margin-bottom: -3.750rem;
+ 
+}
+.wrapper:after {
+  content: "";
+  display: block;
+}
+.main-content{
+	margin-top: 38px;
+	margin-bottom: 58px;
+}
+
+.ie8 body{
+	background-image: none;
+	background-attachment: scroll;
+	background-repeat: repeat;
+	background-color: #F3E5A6;
+}
+
+/*End General*/
+/*qTip classes*/
+.has-error{
+	border-color: #e0ad9a !important;
+}
+.qtip-custom-style{
+	border-color: #cb6945 !important;
+	background: #f7c0ad; /* Old browsers */
+	background: -moz-linear-gradient(top, #f7c0ad 0%, #d8825e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f7c0ad 0%,#d8825e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f7c0ad 0%,#d8825e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7c0ad', endColorstr='#d8825e',GradientType=0 ); /* IE6-9 */
+
+}
+.qtip-custom-style .qtip-tip{
+	background-color: #E9A489 !important;
+}
+.qtip-custom-style .qtip-content{
+	font-family:'Open Sans Semibold', Helvetica, sans-serif;
+	font-size: 12px;
+	color: #9a4e32;
+
+}
+/*End qTip classes*/
