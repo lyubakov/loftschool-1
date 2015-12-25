@@ -11,7 +11,6 @@ var  contactMe = (function() {
 	};
 //__Submit Action
 	function _submitForm (e) {
-		console.log('Отправка формы');
 		e.preventDefault();
 
 		var form = $(this),
@@ -22,7 +21,6 @@ var  contactMe = (function() {
 	};
 
 	function _ajaxForm (form, url) {
-		console.log('Ajax запрос')
 		if (!validation.validateForm(form)) return false;
 
 	};
@@ -31,5 +29,6 @@ var  contactMe = (function() {
 		init : init
 	};
 })();
-
-contactMe.init();
+if($('#contact-me')) {
+	contactMe.init();
+}

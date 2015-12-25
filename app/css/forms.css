@@ -22,7 +22,13 @@
 	   color: #c7c6c6;
 	   font-family:'Open Sans Light', Helvetica, sans-serif;
 	}
-	.form-button-submit:active, .form-button-submit:focus {
+	.form-button-submit:active{
+ 	 outline: none;
+ 	 font-size: 12px;
+ 	 padding-top: 8.5px;
+ 	 padding-bottom: 8.5px;
+}
+	.form-button-submit:focus {
  	 outline: none;
 }
 /*General Styles*/
@@ -107,7 +113,7 @@
 	width: 118px;
 	border: 1px solid;
 	border-radius: 5px;
-	padding: 2.375% 4.75%;
+	padding: 7.5px 15px;
 	font-family:'Open Sans Semibold', Helvetica, sans-serif;
 	font-size: 14px;
 	background: #7de6c9; /* Old browsers */
@@ -138,15 +144,24 @@
 	display: block;
 	position: relative;
 	overflow: hidden;
+	background: url('../img/forms/iCloud-down.png') no-repeat center center;
+	width: 55px;
+	height: 40px;
+	float: right;
+	margin: 10px 0;
+	border: 1px solid #727070;
+	border-left: none;
+	box-sizing: border-box;
 }
 .file-wrap input[type=file]{
     position: absolute;
     top: 0;
     opacity: 0;
     cursor: pointer;
-    width: 320px;
+    width: 54px;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
+
 .modal-form-wrap{
 	display: none;
 }

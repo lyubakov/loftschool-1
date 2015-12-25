@@ -10,14 +10,12 @@ var laModule = (function () {
 		};
 
 	var _validateModal = function (e) {
-		console.log('Modal Validation');
 		e.preventDefault();
 		var form = $(this);
 		validation.validateForm(form);
 	} 
 	var _showModal = function (e) {
 		e.preventDefault();
-		console.log('Модал вперёд');
 		$('#form-wrapper').bPopup({
             positionStyle: 'fixed', //'fixed' or 'absolute'
             onClose: function () {

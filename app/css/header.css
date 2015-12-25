@@ -147,13 +147,14 @@
 .ie8 .nav-list-item-active{background:#76E2C7;}
 .ie8 .nav-list-item-active:hover{background:#76E2C7;}
 
-.nav-list-item-link{
-    padding: 15px 30px;
-}
 .nav-list-item-link-a{
     font-size: 1.250em;
     font-family: 'Open Sans Semibold', Helvetica, sans-serif;
     color: #727070;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 15px 30px;
 }
 .nav-list-item-link-a-active{
   color: #1e7465;
@@ -263,8 +264,6 @@
 .ico-email {
     width: 17px;
     height: 13px;
-    width: 1.063rem;
-    height: 0.813rem;
     background-position: -40px -10px;
     margin-left: 38%;
     margin-top: 20%;  
@@ -279,8 +278,6 @@
 .ico-skype {
     width: 19px;
     height: 19px;
-    width: 1.188rem;
-    height: 1.188rem;
     background-position: -79px -10px;
     margin-left: 31%;
     margin-top: 19%;
@@ -289,8 +286,6 @@
 .ico-telephone {
     width: 17px;
     height: 22px;
-    width: 1.063rem;
-    height: 1.375rem;
     background-position: -79px -49px;
     margin-top: 16%;
     margin-left: 33%;

@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/portfolio.css">
     <!-- endbuild -->
     <!--[if lt IE 9]>
-    <script src="bower/html5shiv/dist/html5shiv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
 <body>
@@ -201,11 +201,12 @@
 							<label for="" class="addproj-label">Картинка проекта</label>
 							<label class="file-wrap">
 								<input type="file" id="laInput" class="addproj-input addproj-input-img">
-								<input type="text" class="addproj-input addproj-input-img" placeholder="Загрузите изображение" id="laClone"  qtip-content="изображение" qtip-position="left">
-								<div class="addproj-img-block">
-									<img src="img/forms/iCloud-down.png" alt="Загрузка изображения для нового проекта" class="addproj-img">
-								</div>
+								<input type="hidden" disabled>
+									<!--<img src="img/forms/iCloud-down.png" alt="Загрузка изображения для нового проекта" class="addproj-img">-->
+								
 							</label>
+							<input type="text" class="addproj-input addproj-input-img" placeholder="Загрузите изображение" id="laClone"  qtip-content="изображение" qtip-position="left">
+							
 							<label for="" class="addproj-label">URL проекта</label>
 							<input type="text" class="addproj-input" placeholder="Добавьте ссылку"  qtip-content="ссылка на проект" qtip-position="left">
 							<label for="" class="addproj-label">Описание</label>

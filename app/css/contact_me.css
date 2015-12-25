@@ -122,6 +122,11 @@
 .about-section-block-button:active, .about-section-block-button:focus {
   outline: none;
 }
+.about-section-block-button:active{
+	font-size: 12px;
+ 	padding-top: 10.5px;
+ 	padding-bottom: 10.5px;
+}
 .about-section-block-button::-moz-focus-inner {
   border: 0;
 }

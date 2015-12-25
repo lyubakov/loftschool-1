@@ -16,7 +16,6 @@ var validation = (function () {
 		$(this).removeClass('has-error');
 	};
 	function _clearFileinput(){
-		console.log('now');
 		$('#laClone').removeClass('has-error');
 		$('#laClone').trigger('hideTooltip');
 	};
@@ -68,7 +67,6 @@ var validation = (function () {
 	};
 //__Form Validation
 	function validateForm (form) {
-		console.log('Валидация идет, это прекрасно')
 	//__Collect all the needed inputs and textarea
 		var elements = form.find('input, textarea').not('#laInput'),
 			valid = true;
