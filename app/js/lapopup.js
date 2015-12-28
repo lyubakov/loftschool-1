@@ -30,4 +30,6 @@ var laModule = (function () {
 
 })();
 
-laModule.init()
+if ($('#new-proj')) {
+	laModule.init();
+}

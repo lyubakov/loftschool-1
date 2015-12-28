@@ -84,12 +84,16 @@ var validation = (function () {
 
 		return valid;
 	};
-
+	$('#laInput').change(function(e){
+	var laVal = $(this).val().split('\\').slice(-1);
+  	$('#laClone').val(laVal)
+	});
 //__Public Methods
 	return {
 		init : init,
 		validateForm : validateForm 
 	};
 })();
-
-validation.init();
+if ($('form')) {
+	validation.init();
+};

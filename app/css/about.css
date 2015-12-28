@@ -115,7 +115,7 @@
 	background: url('../img/about/border.png') repeat-x top;
 }
 
-.about-section-list-item:nth-child(1){
+.about-section-list-item:first-child{
 	background: none;
 	padding-top: 0;
 }

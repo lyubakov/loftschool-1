@@ -29,6 +29,7 @@ var  contactMe = (function() {
 		init : init
 	};
 })();
+
 if($('#contact-me')) {
 	contactMe.init();
 }
